@@ -83,11 +83,11 @@ int main() {
   return 0;
 }
 ```
-Also the proxy server supports registering [handlers](https://github.com/dmtai/test_socks5/blob/main/include/socks5/server/handler_defs.hpp)
-and [data processors](https://github.com/dmtai/test_socks5/blob/main/include/socks5/server/relay_data_processor_defs.hpp) 
+Also the proxy server supports registering [handlers](https://github.com/dmtai/libsocks/blob/main/include/socks5/server/handler_defs.hpp)
+and [data processors](https://github.com/dmtai/libsocks/blob/main/include/socks5/server/relay_data_processor_defs.hpp) 
 to process all relayed TCP and UDP traffic. Here's a simple data processor that process all relayed data, or see the 
-[example](https://github.com/dmtai/test_socks5/blob/main/examples/tcp_relay/socks5_proxy_with_handler/main.cpp) of a TСP traffic handler.
-Read more about [data processors and handlers](https://github.com/dmtai/test_socks5/blob/main/include/socks5/server/server_builder.hpp#L139).
+[example](https://github.com/dmtai/libsocks/blob/main/examples/tcp_relay/socks5_proxy_with_handler/main.cpp) of a TСP traffic handler.
+Read more about [data processors and handlers](https://github.com/dmtai/libsocks/blob/main/include/socks5/server/server_builder.hpp#L249).
 ```cpp
 #include <boost/asio.hpp>
 #include <socks5/server/server_builder.hpp>
@@ -129,10 +129,10 @@ int main() {
 ```
 
 ## Examples
-See more examples [here](https://github.com/dmtai/test_socks5/tree/main/examples).
+See more examples [here](https://github.com/dmtai/libsocks/tree/main/examples).
 
 ## Documentation
-All [exported logic](https://github.com/dmtai/test_socks5/tree/main/include) has built-in documentation and comments.
+All [exported logic](https://github.com/dmtai/libsocks/tree/main/include/socks5) has built-in documentation and comments.
 
 ## Dependencies
 
@@ -142,7 +142,7 @@ All [exported logic](https://github.com/dmtai/test_socks5/tree/main/include) has
 
 ## Integration
 
-Include to your project using cmake. Your project must also have [dependencies](https://github.com/dmtai/test_socks5/blob/main/conanfile.txt) available
+Include to your project using cmake. Your project must also have [dependencies](https://github.com/dmtai/libsocks/blob/main/conanfile.txt) available
 (get them, for example, using [Conan](https://docs.conan.io/2/tutorial/consuming_packages/build_simple_cmake_project.html))
 ```cmake
 add_subdirectory(third_party/libsocks) # path to the directory with libsocks
